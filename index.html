@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- 1. 기본 SEO 메타 태그 -->
+        <title>To</title>
+        <meta name="description" content="간편하게 할 일을 관리하고 체계적으로 일상을 정리하세요." />
+        <meta name="keywords" content="todo, 투두, 할일, 리액트, 앱" />
+        <meta name="author" content="Your Name" />
+
+        <!-- 2. 파비콘 및 매니페스트 연결 -->
+        <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
+        <link rel="manifest" href="./public/manifest.json" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- 3. OpenGraph (카카오톡, 슬랙, 페이스북 링크 공유용) -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="To Do App - 나만의 할 일 관리" />
+        <meta property="og:description" content="간편하게 할 일을 관리하고 체계적으로 일상을 정리하세요." />
+        <meta property="og:image" content="./public/og-image.png" />
+        <meta property="og:site_name" content="To Do App" />
+        <!-- ⚠️ 추후 배포 후 실제 도메인 주소로 수정해 주세요 -->
+        <meta property="og:url" content="https://your-domain.com" />
+
+        <!-- 4. Twitter Card (트위터/X 링크 공유용) -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="To Do App - 나만의 할 일 관리" />
+        <meta name="twitter:description" content="간편하게 할 일을 관리하고 체계적으로 일상을 정리하세요." />
+        <meta name="twitter:image" content="/og-image.png" />
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>
